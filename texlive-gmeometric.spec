@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/gmeometric
+# catalog-date 2008-11-23 19:39:24 +0100
+# catalog-license lppl
+# catalog-version 0.73
 Name:		texlive-gmeometric
 Version:	0.73
 Release:	1
@@ -42,6 +48,7 @@ The package makes use of the author's gmutils package.
 %{_texmfdistdir}/tex/latex/gmeometric/gmeometric.sty
 %doc %{_texmfdistdir}/doc/latex/gmeometric/README
 %doc %{_texmfdistdir}/doc/latex/gmeometric/gmeometric.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ The package makes use of the author's gmutils package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
