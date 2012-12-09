@@ -49,3 +49,17 @@ The package makes use of the author's gmutils package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.73-2
++ Revision: 752359
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.73-1
++ Revision: 718564
+- texlive-gmeometric
+- texlive-gmeometric
+- texlive-gmeometric
+- texlive-gmeometric
+
