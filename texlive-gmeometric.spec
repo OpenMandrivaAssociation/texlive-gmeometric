@@ -6,7 +6,7 @@
 # catalog-version 0.73
 Name:		texlive-gmeometric
 Version:	0.73
-Release:	5
+Release:	6
 Summary:	Change page size wherever it's safe
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmeometric
