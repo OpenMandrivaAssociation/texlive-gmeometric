@@ -9,7 +9,7 @@ Version:	0.73
 Release:	12
 Summary:	Change page size wherever it's safe
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmeometric
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gmeometric
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmeometric.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmeometric.doc.tar.xz
